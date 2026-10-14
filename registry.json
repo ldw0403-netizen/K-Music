@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T00:00:00Z",
+  "updated_at": "2026-10-15T00:00:00Z",
   "extensions": [
     {
       "id": "bugs-music",
       "name": "bugs-music",
       "display_name": "Bugs Music",
-      "version": "1.6.1",
-      "description": "Bugs Music metadata provider with TOP100, latest, popular, and genre chart sections.",
+      "version": "2.0.0",
+      "description": "Bugs Music metadata provider with TOP100, genre charts, artist pages and search.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -18,15 +18,16 @@
         "homefeed"
       ],
       "downloads": 0,
-      "updated_at": "2026-09-15T00:00:00Z",
-      "min_app_version": "3.0.1"
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "2e035aca014197aba008ae289fe20efddb8da053a1c5e46e990093fdfa187cee"
     },
     {
       "id": "melon-music",
       "name": "melon-music",
       "display_name": "Melon Music",
-      "version": "1.2.3",
-      "description": "Melon Music metadata provider with chart, DJ playlist, search, and playlist playback/download support.",
+      "version": "2.0.0",
+      "description": "Melon Music metadata provider with chart, DJ playlist, artist pages, search and playlist support.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -38,15 +39,16 @@
         "playlist"
       ],
       "downloads": 0,
-      "updated_at": "2026-09-15T00:00:00Z",
-      "min_app_version": "3.0.1"
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "5c1dc86e47128a2a2c70991de9c6b2c94f6b2d3cf33e8bc83fbf41013b315b4f"
     },
     {
       "id": "genie-music",
       "name": "genie-music",
       "display_name": "Genie Music",
-      "version": "1.0.28",
-      "description": "Genie Music metadata provider with chart and search support.",
+      "version": "2.0.0",
+      "description": "Genie Music metadata provider with chart, album/artist navigation and search.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -57,8 +59,9 @@
         "homefeed"
       ],
       "downloads": 0,
-      "updated_at": "2026-09-15T00:00:00Z",
-      "min_app_version": "3.0.1"
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "1146f6e55d7dbe5aa3209575391061abba49d947dd8721a334ea9dda995c49e2"
     }
   ]
 }
