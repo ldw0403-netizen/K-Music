@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-15T00:00:00Z",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.0.0",
+      "description": "Bugs Music metadata provider with TOP100, genre charts, artist pages and search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "d0e5024a8a04c007829681ec342018c3de9436852d2d45b173123cda5fb05712",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.0.0",
+      "description": "Melon Music metadata provider with chart, DJ playlist, artist pages, search and playlist support.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "63664c56781adbb33545112dc124193ad5a538df99f33541447b793c7d514cdc",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.0.0",
+      "description": "Genie Music metadata provider with chart, album/artist navigation and search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-10-15T00:00:00Z",
+      "min_app_version": "3.0.1",
+      "sha256": "709fdb68b072abf080ab7aed471892f6c13a57abdbd990e2a82f5961f66b9b70",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
