@@ -20,7 +20,7 @@
       "downloads": 0,
       "updated_at": "2026-10-15T00:00:00Z",
       "min_app_version": "3.0.1",
-      "sha256": "2e035aca014197aba008ae289fe20efddb8da053a1c5e46e990093fdfa187cee"
+      "sha256": "d0e5024a8a04c007829681ec342018c3de9436852d2d45b173123cda5fb05712"
     },
     {
       "id": "melon-music",
@@ -41,7 +41,7 @@
       "downloads": 0,
       "updated_at": "2026-10-15T00:00:00Z",
       "min_app_version": "3.0.1",
-      "sha256": "5c1dc86e47128a2a2c70991de9c6b2c94f6b2d3cf33e8bc83fbf41013b315b4f"
+      "sha256": "63664c56781adbb33545112dc124193ad5a538df99f33541447b793c7d514cdc"
     },
     {
       "id": "genie-music",
@@ -61,7 +61,7 @@
       "downloads": 0,
       "updated_at": "2026-10-15T00:00:00Z",
       "min_app_version": "3.0.1",
-      "sha256": "1146f6e55d7dbe5aa3209575391061abba49d947dd8721a334ea9dda995c49e2"
+      "sha256": "709fdb68b072abf080ab7aed471892f6c13a57abdbd990e2a82f5961f66b9b70"
     }
   ]
 }
