@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15T00:00:00Z",
+  "updated_at": "2026-10-20T00:00:00Z",
   "extensions": [
     {
       "id": "bugs-music",
       "name": "bugs-music",
       "display_name": "Bugs Music",
-      "version": "2.0.1",
-      "description": "Bugs Music metadata provider with TOP100, genre charts, artist pages and search.",
+      "version": "2.1.0",
+      "description": "Bugs Music metadata provider with TOP100, genre charts, latest release, Bugs PD playlists, artist pages and search.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -15,11 +15,13 @@
         "korean",
         "metadata",
         "search",
-        "homefeed"
+        "homefeed",
+        "latest",
+        "pd-album"
       ],
       "downloads": 0,
-      "updated_at": "2026-10-15T00:00:00Z",
-      "min_app_version": "3.0.1",
+      "updated_at": "2026-10-20T00:00:00Z",
+      "min_app_version": "5.2.0",
       "sha256": "ea8697d65f85eae835a99bceda5cd9e616b4683139a9ad9458d2ed3cd176c127",
       "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
       "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
@@ -28,8 +30,8 @@
       "id": "melon-music",
       "name": "melon-music",
       "display_name": "Melon Music",
-      "version": "2.0.1",
-      "description": "Melon Music metadata provider with chart, DJ playlist, artist pages, search and playlist support.",
+      "version": "2.1.0",
+      "description": "Melon Music metadata provider with TOP100/weekly/era charts, DJ playlist, artist pages, search and playlist support.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -38,11 +40,13 @@
         "metadata",
         "search",
         "homefeed",
-        "playlist"
+        "playlist",
+        "weekly-chart",
+        "era-chart"
       ],
       "downloads": 0,
-      "updated_at": "2026-10-15T00:00:00Z",
-      "min_app_version": "3.0.1",
+      "updated_at": "2026-10-20T00:00:00Z",
+      "min_app_version": "5.2.0",
       "sha256": "d56560e9e4812c3db00b635ec31b3f6d8e3c338c14aee2c29b4db54b902d855e",
       "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
       "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
@@ -51,8 +55,8 @@
       "id": "genie-music",
       "name": "genie-music",
       "display_name": "Genie Music",
-      "version": "2.0.1",
-      "description": "Genie Music metadata provider with chart, album/artist navigation and search.",
+      "version": "2.1.0",
+      "description": "Genie Music metadata provider with chart, Genie DJ theme playlist, album/artist navigation and search.",
       "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
       "category": "integration",
       "tags": [
@@ -60,11 +64,13 @@
         "korean",
         "metadata",
         "search",
-        "homefeed"
+        "homefeed",
+        "theme",
+        "playlist"
       ],
       "downloads": 0,
-      "updated_at": "2026-10-15T00:00:00Z",
-      "min_app_version": "3.0.1",
+      "updated_at": "2026-10-20T00:00:00Z",
+      "min_app_version": "5.2.0",
       "sha256": "6e52ae3421e946b1516b351d8f35861ea1479c420a81de946c0e64f0628ef60e",
       "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
       "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
