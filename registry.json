@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-06",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.1.1",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "010db934c74cb18e9374e5f89adc767e917e41ff2c42444769ccbfc95d2b2c1a",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.1.1",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "eeed791ab427774f5ac0c6867f23dc641e0b4c0481c4022e46ea375226fb1309",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.1.1",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "1e9ddcfa8c3865536da2258d8f9301a8f7ccefeba41cadadc2d87b9e9d34ec84",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
