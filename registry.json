@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-06",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.2.1",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, track-title alias bridging for translated English registration names (13 bridged titles, new: 사계, 그리고 너 ↔ Four seasons, and you; 2.2.0 hardening: NFKC title normalization, 5s album-guarded duration gate, bridge-hit logging) incl. 주저하는 연인들을 위해 ↔ For Lovers Who Hesitate, 이 별로부터 ↔ Unknown Planet, 소나기 ↔ Sudden Shower, 너에게 닿기를 ↔ Spring Snow, 외사랑 ↔ One-sided love) so hangul titles whose official English release name is a meaning translation still resolve, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "1872f1ce23f2d16f06d7d95a4bfa299e338697e32870c5bda91011b0aae9519c",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.2.1",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, track-title alias bridging for translated English registration names (13 bridged titles, new: 사계, 그리고 너 ↔ Four seasons, and you; 2.2.0 hardening: NFKC title normalization, 5s album-guarded duration gate, bridge-hit logging) incl. 주저하는 연인들을 위해 ↔ For Lovers Who Hesitate, 이 별로부터 ↔ Unknown Planet, 소나기 ↔ Sudden Shower, 너에게 닿기를 ↔ Spring Snow, 외사랑 ↔ One-sided love) so hangul titles whose official English release name is a meaning translation still resolve, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "13f1a863240feca36c4dff863cec27204ca87b3759ed712ed82c396d07c9b873",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.2.1",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, track-title alias bridging for translated English registration names (13 bridged titles, new: 사계, 그리고 너 ↔ Four seasons, and you; 2.2.0 hardening: NFKC title normalization, 5s album-guarded duration gate, bridge-hit logging) incl. 주저하는 연인들을 위해 ↔ For Lovers Who Hesitate, 이 별로부터 ↔ Unknown Planet, 소나기 ↔ Sudden Shower, 너에게 닿기를 ↔ Spring Snow, 외사랑 ↔ One-sided love) so hangul titles whose official English release name is a meaning translation still resolve, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "3d6aa6c06c5f25cb671197a7041d05b2aee74130ddad767a16e3bf95b3fd804a",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
