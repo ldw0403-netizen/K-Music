@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-06",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.1.2",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring. Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "07dcb95e0dfa7020e66ca15d2447e0e65a8fe5fad4dada45a27f0c7a410582ab",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.1.2",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring. Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "094115b28d36dc5234fdb13b32d9f2614dea098c4189a00955efab263679963f",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.1.2",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 170+ artist aliases, iTunes hangul-latin bridging, album-level lookup, variant-ISRC retry, and duration-verified scoring. Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "f5759bbb87987c1a193471b8c4e66f7c48c8c71f32083b242920b459e374251b",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-06",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
