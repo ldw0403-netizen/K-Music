@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-08",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.2.7",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations (the original title fully contained in the candidate title, e.g. \"사랑은 봄비처럼... 이별은 겨울비처럼\" or \"... (Narr. ...)\") are recognized as the same recording when artist match and duration verification pass as well. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; the app does not accept the field yet (verified 2026-11-08), so the switch stays off.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "02cf8a1c83a398e4e07f6d0041a245dc1fb88b405c04202660259d1b4f24146b",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.2.7",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations (the original title fully contained in the candidate title, e.g. \"사랑은 봄비처럼... 이별은 겨울비처럼\" or \"... (Narr. ...)\") are recognized as the same recording when artist match and duration verification pass as well. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; the app does not accept the field yet (verified 2026-11-08), so the switch stays off.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "67da910df29b1768469da6f9dc3c313080c755ea015d07c2f16fc0a10cb49bbe",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.2.7",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations (the original title fully contained in the candidate title, e.g. \"사랑은 봄비처럼... 이별은 겨울비처럼\" or \"... (Narr. ...)\") are recognized as the same recording when artist match and duration verification pass as well. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; the app does not accept the field yet (verified 2026-11-08), so the switch stays off.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "92b458dcf1ffc9e14407ecb0c60662cbb4b539a9b8b49b6ecc4b9c645c8be08c",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
