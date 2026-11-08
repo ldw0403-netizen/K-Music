@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-08",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.2.6",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; a 2026-11-08 A/B delivery test showed the app does not accept the field yet, so the switch stays off and the delivered payload remains identical to 2.2.2. 2.2.6 rescues compound/collab-title registrations (containment recognition with artist and duration verification intact), widens the cross-registration duration window to 2 seconds, and fills the romaja-artist query budget on Spotify.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "70e096742d6464233594b56e80cd183fcaea1b56368ba95c49af1f4c9493e0ba",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.2.6",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; a 2026-11-08 A/B delivery test showed the app does not accept the field yet, so the switch stays off and the delivered payload remains identical to 2.2.2. 2.2.6 rescues compound/collab-title registrations (containment recognition with artist and duration verification intact), widens the cross-registration duration window to 2 seconds, and fills the romaja-artist query budget on Spotify.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "226c325b26d52de23c4175909700c310e33b257f816150544c6280762c17eb6e",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.2.6",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. An off-by-default switch (DELIVER_APPLE_MUSIC_ID) can hand the Apple Music track identifier (apple_music_id) to the app's download resolver; a 2026-11-08 A/B delivery test showed the app does not accept the field yet, so the switch stays off and the delivered payload remains identical to 2.2.2. 2.2.6 rescues compound/collab-title registrations (containment recognition with artist and duration verification intact), widens the cross-registration duration window to 2 seconds, and fills the romaja-artist query budget on Spotify.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "9a79e90a6a7ebd3dcfa49d682c7f64debacbd8ad2d5db24029a9ebc206bf707e",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-08",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
