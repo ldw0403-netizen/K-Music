@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-17",
+  "extensions": [
+    {
+      "id": "bugs-music",
+      "name": "bugs-music",
+      "display_name": "Bugs Music",
+      "version": "2.3.3",
+      "description": "Bugs Music metadata provider with accurate track and album details, artist catalogs, TOP100, all genre charts from Bugs genre home, Music PD albums, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, Bugs CONNECT-badge cleanup, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations (the original title fully contained in the candidate title, e.g. \"사랑은 봄비처럼... 이별은 겨울비처럼\" or \"... (Narr. ...)\") are recognized as the same recording when artist match and duration verification pass as well. 2.3.3 enables DELIVER_APPLE_MUSIC_ID: the Apple Music track identifier (apple_music_id) is now delivered to the app's download resolver, confirmed working by manual Apple Music search test (2026-11-17). Tracks that iTunes finds but previously had no deezer_id/spotify_id fallback (and would loop in the download queue) now resolve directly via apple_music_id. 2.3.2 adds three title alias registrations: 나는 반딧불 ↔ I Am a Firefly (황가람), 퇴사할게여 ↔ I'm gonna TOESA (소연/SOYEON, Narr. Kian84), 그대만 있다면 ↔ If I Have You Only (너드커넥션/Nerd Connection). 2.3.1 makes the romanized fallback prefer the official international registration from the title alias table. 2.3.0 adds handoff-name hygiene for the app's name-search fallback.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/bugs-music.spotiflac-ext",
+      "sha256": "49a50dd5b3f8f9c44c56fb70455851f8da82dc20de03e3498decb120bc2a8ea8",
+      "category": "integration",
+      "tags": [
+        "bugs",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-17",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/bugs-music.png"
+    },
+    {
+      "id": "melon-music",
+      "name": "melon-music",
+      "display_name": "Melon Music",
+      "version": "2.3.3",
+      "description": "Melon Music metadata provider with TOP100/HOT100/age charts, latest songs and albums, genre lists, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations are recognized as the same recording when artist match and duration verification pass. 2.3.3 enables DELIVER_APPLE_MUSIC_ID: the Apple Music track identifier (apple_music_id) is now delivered to the app's download resolver, confirmed working by manual Apple Music search test (2026-11-17). Tracks that iTunes finds but previously had no deezer_id/spotify_id fallback (and would loop in the download queue) now resolve directly via apple_music_id.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/melon-music.spotiflac-ext",
+      "sha256": "148ef84b9f9c87b83790ed972061e57f102d2ae3a6c41aad83c7ebce4ba95c42",
+      "category": "integration",
+      "tags": [
+        "melon",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed",
+        "playlist"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-17",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/melon-music.png"
+    },
+    {
+      "id": "genie-music",
+      "name": "genie-music",
+      "display_name": "Genie Music",
+      "version": "2.3.3",
+      "description": "Genie Music metadata provider with track and album details, paginated artist catalogs, charts, DJ playlists, and URL imports. Multi-source ISRC matching across Deezer, Spotify, MusicBrainz, iTunes and YouTube Music with hangul romanization fallback, 260+ artist aliases, iTunes hangul-latin bridging with English-registration feedback re-search, artist-name variant search, romaja-title queries and romaja fallback naming for romanized download sources, album-level lookup, variant-ISRC retry, and duration-verified scoring, and variant-title demotion (instrumental/karaoke candidates lose to canonical ones). Hands confirmed Deezer/Spotify track identifiers (deezer_id/spotify_id) to the app's download resolver so downloads resolve directly instead of falling back to name search. Rate-limit pacing, transient-failure retry, and a 90s background requeue of blocked lookups keep 100-track batch matching from starving. Compound/collab-title registrations are recognized as the same recording when artist match and duration verification pass. 2.3.3 enables DELIVER_APPLE_MUSIC_ID: the Apple Music track identifier (apple_music_id) is now delivered to the app's download resolver, confirmed working by manual Apple Music search test (2026-11-17). Tracks that iTunes finds but previously had no deezer_id/spotify_id fallback (and would loop in the download queue) now resolve directly via apple_music_id.",
+      "download_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/genie-music.spotiflac-ext",
+      "sha256": "6a6deef33ea3aa98c3e5658aab1f01443f70de903ac173d94cf27f64458f269a",
+      "category": "integration",
+      "tags": [
+        "genie",
+        "korean",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-11-17",
+      "min_app_version": "3.0.1",
+      "icon_url": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png",
+      "iconUrl": "https://raw.githubusercontent.com/ldw0403-netizen/K-Music/main/icons/genie-music.png"
+    }
+  ]
+}
